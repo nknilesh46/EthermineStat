@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tty.MainActivity">
+
+    <item
+        android:id="@+id/ibutton"
+        android:title="Info"
+        app:showAsAction="never"
+        android:icon="@mipmap/ibutton"/>
+
+    <item
+        android:id="@+id/clear_address"
+        android:orderInCategory="100"
+        android:title="Clear Address"
+        app:showAsAction="never" />
+
+
+</menu>
